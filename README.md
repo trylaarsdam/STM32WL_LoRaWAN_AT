@@ -1,27 +1,6 @@
-/**
-  @page LoRaWAN_AT_Slave Readme file
- 
-  @verbatim
-  ******************** (C) COPYRIGHT 2020 STMicroelectronics *******************
-  * @file    Applications/LoRaWAN/LoRaWAN_AT_Slave/readme.txt 
-  * @author  MCD Application Team
-  * @brief   This application is a simple demo application software of a LoRa
-  *          modem controlled though AT command interface over UART by an
-  *          external host
-  ******************************************************************************
-  * @attention
-  *
-  * <h2><center>&copy; Copyright (c) 2020 STMicroelectronics.
-  * All rights reserved.</center></h2>
-  *
-  * This software component is licensed by ST under Ultimate Liberty license
-  * SLA0044, the "License"; You may not use this file except in compliance with
-  * the License. You may obtain a copy of the License at:
-  *                             www.st.com/SLA0044
-  *
-  ******************************************************************************
-  @endverbatim
+Adapted from STM32Cube Firmware
 
+/**
 @par Description
 
 This directory contains a set of source files that implements a LoRa application
@@ -137,17 +116,5 @@ Applications, SubGHz_Phy, LoRaWAN, AT_Slave, SingleCore
              |                        |          |                        |
              --------------------------          --------------------------
 
-@par How to use it ? 
-In order to make the program work, you must do the following :
-  - Open your preferred toolchain 
-  - Rebuild all files and load your image into target memory
-  - Run the example
-  - Open a Terminal, connected the LoRa Object
-  - UART Config = 9600, 8b, 1 stopbit, no parity, no flow control
-  - Terminal Config: Select 'CR+LF' for Transmit New-Line and switch 'Local echo' on
-  - Reset the board
-  - type AT? to get all available commands
-  - Send your AT commands by typing them in the terminal
 
- * <h3><center>&copy; COPYRIGHT STMicroelectronics</center></h3>
  */
