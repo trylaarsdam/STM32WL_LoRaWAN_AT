@@ -108,7 +108,7 @@ Applications, SubGHz_Phy, LoRaWAN, AT_Slave, SingleCore
         - STM32WLxx Nucleo requires IS_TCXO_SUPPORTED=1
 
   -Set Up:
-
+```
              --------------------------  V    V  -------------------------
              |      LoRa Object       |  |    |  |      LoRa Network      |
              |                        |  |    |  |                        |
@@ -116,5 +116,5 @@ Applications, SubGHz_Phy, LoRaWAN, AT_Slave, SingleCore
              |                        |          |                        |
              --------------------------          --------------------------
 
-
+```
  */
