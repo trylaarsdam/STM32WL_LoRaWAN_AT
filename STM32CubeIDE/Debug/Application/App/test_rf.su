@@ -1,0 +1,13 @@
+test_rf.c:134:9:TST_TxTone	8	static
+test_rf.c:158:9:TST_RxRssi	104	static
+test_rf.c:219:10:TST_set_config	16	static
+test_rf.c:232:9:TST_get_config	16	static
+test_rf.c:244:9:TST_stop	8	static
+test_rf.c:260:9:TST_TX_Start	352	static
+test_rf.c:371:9:TST_RX_Start	128	static
+test_rf.c:495:6:OnTxDone	8	static
+test_rf.c:508:6:OnRxDone	24	static
+test_rf.c:524:6:OnTxTimeout	8	static
+test_rf.c:537:6:OnRxTimeout	8	static
+test_rf.c:550:6:OnRxError	8	static
+test_rf.c:563:16:Prbs9_generator	32	static

@@ -38,7 +38,7 @@ extern "C" {
 /* Exported constants --------------------------------------------------------*/
 
 /* LoraWAN application configuration (Mw is configured by lorawan_conf.h) */
-#define ACTIVE_REGION                               LORAMAC_REGION_EU868
+#define ACTIVE_REGION                               LORAMAC_REGION_US915
 
 /*!
  * LoRaWAN default endNode class port
@@ -49,7 +49,7 @@ extern "C" {
  * LoRaWAN Adaptive Data Rate
  * @note Please note that when ADR is enabled the end-device should be static
  */
-#define LORAWAN_ADR_STATE                           LORAMAC_HANDLER_ADR_ON
+#define LORAWAN_ADR_STATE                           LORAMAC_HANDLER_ADR_OFF
 
 /*!
  * LoRaWAN Default data Rate Data Rate
