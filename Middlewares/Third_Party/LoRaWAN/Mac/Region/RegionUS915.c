@@ -514,12 +514,12 @@ void RegionUS915InitDefaults( InitDefaultsParams_t* params )
 
             // Default ChannelsMask
             /* ST_WORKAROUND_BEGIN: Hybrid mode */
-#if ( HYBRID_ENABLED == 1 )
-            NvmCtx.ChannelsDefaultMask[0] = 0x00FF;
+#if ( HYBRID_ENABLED == 0 )
+            NvmCtx.ChannelsDefaultMask[0] = 0xFF00;
             NvmCtx.ChannelsDefaultMask[1] = 0x0000;
             NvmCtx.ChannelsDefaultMask[2] = 0x0000;
             NvmCtx.ChannelsDefaultMask[3] = 0x0000;
-            NvmCtx.ChannelsDefaultMask[4] = 0x0001;
+            NvmCtx.ChannelsDefaultMask[4] = 0x0002;
             NvmCtx.ChannelsDefaultMask[5] = 0x0000;
 #else
             NvmCtx.ChannelsDefaultMask[0] = 0xFFFF;
